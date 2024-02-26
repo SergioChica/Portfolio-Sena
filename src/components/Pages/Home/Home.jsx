@@ -1,7 +1,7 @@
 import React from 'react'
 import { Main } from '../../Layouts/Main/Main';
-import { DescriptionProfile } from '../../DescriptionProfile/DescriptionProfile';
-import { PictureProfile } from '../../PictureProfile/PictureProfile';
+import { TitleCover } from '../../TitleCover/TitleCover';
+
 
 
 
@@ -11,8 +11,10 @@ export const Home = () => {
   return (
     <>
     <Main>
-      <PictureProfile />
-      <DescriptionProfile />  
+      <section className='firstSection'>
+      <TitleCover />
+      <p></p>
+      </section>
     </Main>
     </>
   )
