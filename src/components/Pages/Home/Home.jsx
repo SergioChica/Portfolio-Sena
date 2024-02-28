@@ -50,13 +50,14 @@ export const Home = () => {
         <References name='Hola' charge='Developer' phone='31212289' email='sergioanjaci' />
         <References name='' />
         <References name='' />
+        <References name='' />
         </div>
       </div>
       </section>
-      <section className='threeSection'>
+      <section className='fourSection'>
       <TitleCover title='EXPERIENCIA' />
-      <div className='containerThreeSection'>
-        <div className='TextThreeSection'>
+      <div className='containerFourSection'>
+        <div className='TextFourSection'>
         <Experience img={java} text='Bases' progress='50' />
         <Experience img={python} text='Bases' progress='50' />
         <Experience img={javascript} text='Intermedio' progress='70' />
