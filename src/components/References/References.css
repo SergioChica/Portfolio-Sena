@@ -1,0 +1,21 @@
+.containerCardReferences {
+    max-width: 350px;
+    width: 300px;
+    height: 280px;
+    border: 10px solid gray;
+    font-size: 25px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containerCardReferences > div {
+    margin: 0 0 0 15px;
+    display: flex;
+    gap: 5px;
+}
+
+.FourCamp{
+    flex-wrap: wrap;
+}

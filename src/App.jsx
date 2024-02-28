@@ -19,7 +19,6 @@ import { Header } from "./components/Layouts/Header/Header";
 import { Imgs } from './components/Imgs/Imgs';
 import { Navbar } from './components/Navbar/Navbar';
 import { Items } from './components/Items/Items';
-import { Text } from './components/Text/Text';
 import { NotFound } from './components/NotFound/NotFound'
 import { Title } from './components/Title/Title'
 

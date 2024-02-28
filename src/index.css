@@ -134,6 +134,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 0px 0 40px 666px;
+  gap: 20px;
 }
 
 section.firstSection {
@@ -202,5 +203,80 @@ p.textSecond {
 }
 
 p.textFour {
-  color: rgb(189, 255, 149);
+  color: rgb(57, 169, 0);
+}
+
+section.secondSection {
+  width: 100%;
+}
+
+.containerSecondSection {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0 0 0;
+  gap: 10px;
+  color: black;
+}
+
+.TextSecondSection {
+  color: black;
+  width: 85%;
+  display: flex;
+  /* flex-direction: column; */
+  gap: 65px;
+  flex-wrap: wrap;
+}
+
+section.threeSection {
+  width: 100%;
+}
+
+.containerThreeSection {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0 0 0;
+  gap: 10px;
+  color: black;
+}
+
+.TextThreeSection {
+  color: black;
+  width: 85%;
+  display: flex;
+  /* flex-direction: column; */
+  gap: 52px;
+  flex-wrap: wrap;
+}
+
+.containerCardExperience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.imgExperience {
+  height: 200px;
+  width: 200px;
+}
+
+.progressAndText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+progress  {
+  height: 60px;
+}
+
+
+p.textExperience {
+  font-size: 30px;
+  font-weight: 800;
 }
