@@ -26,8 +26,8 @@ export const Home = () => {
       <p className='textOne'>Soy un estudiante resolutivo y proactivo que le gusta aprender cada vez más sobre el mundo del software, enfocandome en ser Fullstack para tener mas conocimientos sobre la mayoria de campos que abarque la industria del software.</p>
       <p className='textSecond'>ACTUALMENTE ESTOY REALIZANDO UN TECNOLOGO SOBRE DESARROLLO DE SOFTWARE Y A LA MISMA VEZ APRENDIENDO MAS MEDIANTE CURSOS.</p>
       <div className='textThreeAndTextFour'>
-        <p className='textThree'>Si quieres ponerte en contacto conmigo escribeme en</p>
-        <p className='textFour'>sergioanjaci@gmail.com</p>
+        <p className='textThree'>Si quieres ponerte en contacto conmigo escribeme en <p className='textFour'>sergioanjaci@gmail.com</p></p>
+        
       </div>
       </div>
       </div>
@@ -65,6 +65,7 @@ export const Home = () => {
         </div>
       </div>
       </section>
+      <a href="https://wa.link/ll3bnx" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
     </Main>
     </>
   )

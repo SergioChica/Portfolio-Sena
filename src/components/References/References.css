@@ -19,3 +19,17 @@
 .FourCamp{
     flex-wrap: wrap;
 }
+
+@media (max-width: 920px) {
+    .containerCardReferences {
+        max-width: 350px;
+        width: 300px;
+        height: 250px;
+        border: 10px solid gray;
+        font-size: 20px;
+        font-weight: 800;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

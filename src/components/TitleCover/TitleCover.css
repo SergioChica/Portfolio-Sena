@@ -41,3 +41,52 @@ img {
   background: rgb(189, 255, 149);
   border: none;
 }
+
+@media (max-width: 1279px) {
+
+  .containerTitleandLogo > h1 {
+    font-size: 45px;
+  }
+  
+  .containerImg {
+    background: rgb(189, 255, 149);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+@media (max-width: 920px) {
+  .containerTitleandLogo > h1 {
+    font-size: 40px;
+}
+}
+
+@media (max-width: 768px) {
+  .containerImg {
+    background: rgb(189, 255, 149);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+      height: 60px;
+      width: 60px;
+  }
+
+  .containerTitleandLogo > h1 {
+    font-size: 30px;
+  }
+}
