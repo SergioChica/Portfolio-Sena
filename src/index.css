@@ -68,15 +68,25 @@ header {
   height: 100vh;
   background-color: rgb(57, 169, 0);
   display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.containerHeader {
+  width: 80%;
+  height: 95%;
+  display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   gap: 20px;
-  position: fixed;
   text-align: center;
 }
 
 .logoAndName {
+  width: 80%;
+  height: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,16 +95,19 @@ header {
 
 .logo {
   width: 60%;
-  height: 80%;
+  height: 1000%;
   border-radius: 50%;
   background-color: gray;
 }
 
 .containerName {
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
+  height: 100%;
+  font-size: 80%;
 }
 
 hr {
@@ -107,14 +120,15 @@ hr {
 .containerLogoandNets {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 20px;
   align-items: center;
-  width: 62%;
-}
+  width: 80%;
+  height: 50%;
+} 
 
 .imgSena {
-  width: 220px;
-  height: 220px;
+  width: 50%;
+  height: 60%;
   background: white;
   border-radius: 50%;
 }
@@ -129,8 +143,8 @@ hr {
 }
 
 svg {
-  width: 25px;
-  height: 25px;
+  width: 50%;
+  height: 50%;
   color: gray;
 }
 
@@ -186,16 +200,16 @@ section.logoAndName {
 }
 
 p.textOne {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 p.textSecond {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
 }
 
 .textThreeAndTextFour {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 p.textFour {
@@ -316,19 +330,43 @@ p.textExperience {
 
 @media (max-width:1279px) {
 
+  .logo {
+    width: 70%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: gray;
+  }
+  
+  .containerName {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    height: 100%;
+    font-size: 70%;
+  }
+  
   .containerLogoandNets {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 10px;
     align-items: center;
-    width: 70%;
+    width: 80%;
+    height: 50%;
   }
-  
+
   .imgSena {
-    width: 180px;
-    height: 180px;
-    background: white;
-    border-radius: 50%;
+      width: 60%;
+      height: 60%;
+      background: white;
+      border-radius: 50%;
+  }
+
+  svg {
+      width: 50%;
+      height: 50%;
+      color: gray;
   }
 
   .TextSecondSection {
@@ -341,11 +379,11 @@ p.textExperience {
   }
 
   .TextThreeSection {
-    color: black;
-    width: 85%;
-    display: flex;
-    gap: 52px 4.6%;
-    flex-wrap: wrap;
+      color: black;
+      width: 85%;
+      display: flex;
+      gap: 52px 3%;
+      flex-wrap: wrap;
   }
 
   .TextFourSection {
@@ -355,6 +393,20 @@ p.textExperience {
     justify-content: center;
     gap: 52px 11.3%;
     flex-wrap: wrap;
+  }
+
+  .imgExperience {
+    height: 180px;
+    width: 180px;
+  }
+
+  progress {
+      height: 50px;
+  }
+
+  p.textExperience {
+      font-size: 25px;
+      font-weight: 800;
   }
 
   .whatsapp {
@@ -374,34 +426,41 @@ p.textExperience {
 }
 
 @media (max-width: 920px) {
+  
   .logo {
-    width: 70%;
+    width: 85%;
     height: 80%;
     border-radius: 50%;
     background-color: gray;
-}
-  
+  }
+
   .containerName {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
-    font-size: 14px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+      font-size: 65%;
   }
 
   .containerLogoandNets {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    align-items: center;
-    width: 80%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+      width: 80%;
   }
 
   .imgSena {
-    width: 140px;
-    height: 140px;
-    background: white;
-    border-radius: 50%;
+      width: 70%;
+      height: 70%;
+      background: white;
+      border-radius: 50%;
+  }
+
+  svg {
+      width: 40%;
+      height: 40%;
+      color: gray;
   }
 
   .TextThreeSection {
@@ -409,7 +468,7 @@ p.textExperience {
     width: 85%;
     display: flex;
     justify-content: center;
-    gap: 52px 4.6%;
+    gap: 30px 1%;
     flex-wrap: wrap;
   }
 
@@ -447,9 +506,20 @@ p.textExperience {
     text-align: center;
   }
 
+  .containerHeader {
+    width: 90%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+
   .logo {
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     border-radius: 50%;
     background-color: gray;
   }
@@ -459,22 +529,22 @@ p.textExperience {
     flex-direction: column;
     align-items: center;
     gap: 5px;
-    font-size: 12px;
+    font-size: 55%;
   }
 
   .containerLogoandNets {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 10px;
     align-items: center;
     width: 85%;
   }
 
   .imgSena {
-    width: 120px;
-    height: 120px;
-    background: white;
-    border-radius: 50%;
+      width: 70%;
+      height: 70%;
+      background: white;
+      border-radius: 50%;
   }
 
   svg {
@@ -509,36 +579,130 @@ p.textExperience {
 }
 
 @media (max-width: 480px) {
+
+  div#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+      width: 100%;
+      height: 25%;
+      background-color: rgb(57, 169, 0);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      position: fixed;
+      text-align: center;
+  }
+
+  .containerHeader {
+      width: 90%;
+      height: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      gap: 15px;
+      text-align: center;
+  }
+
+  .logoAndName {
+      width: 50%;
+      height: 97%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+  }
+
+  .logo {
+      width: 55%;
+      height: 58%;
+      border-radius: 50%;
+      background-color: gray;
+  }
+
   .containerName {
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 5px;
-      font-size: 10px;
+      font-size: 7px;
+  }
+
+  .hrHeader {
+      width: 65%;
+      height: 6px;
+      background: white;
+      border: none;
+      display: none;
   }
   
-  li {
-      font-size: 22px;
-      list-style: none;
-      border-radius: 6px;
-      width: auto;
-      min-width: 70px;
-      height: 30px;
-      align-items: center;
-      display: flex;
-      justify-content: center;
+  .containerLogoandNets {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    width: 50%;
+    height: 100%;
   }
-  
+
   .imgSena {
-      width: 100px;
-      height: 100px;
+      width: 50%;
+      height: 55%;
       background: white;
       border-radius: 50%;
   }
-  
+
+  .iconsNets {
+      width: 100%;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      background: none;
+  }
+
   svg {
       width: 16px;
       height: 16px;
-      color: gray;
+      color: white;
+  }
+
+  main {
+    background: white;
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 35% 0 40px 0;
+    gap: 20px;
+  }
+
+  .TextFourSection {
+    color: black;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    gap: 51px 19%;
+    flex-wrap: wrap;
+  }
+
+  .imgExperience {
+    height: 120px;
+    width: 120px;
+  }
+
+  progress {
+      height: 30px;
+      width: 100px;
+  }
+
+  p.textExperience {
+      font-size: 20px;
+      font-weight: 800;
   }
 } 

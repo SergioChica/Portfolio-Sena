@@ -37,11 +37,12 @@ function App() {
   return (
       <>
         <Header>
+          <div className='containerHeader'>
           <Divs style='logoAndName' >
           <Imgs img={logo} style='logo' />
           <Divs style='containerName' >
           <Title style='textHeader' content="SERGIO ANDRES CHICA JAIMES" />
-          <hr />
+          <hr className='hrHeader' />
           </Divs>
           </Divs>
 
@@ -65,6 +66,7 @@ function App() {
               <FaWhatsapp />
             </Divs>
           </Divs>
+          </div>
         </Header>
         <AppRoutes />
       </>
