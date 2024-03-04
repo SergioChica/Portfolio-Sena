@@ -1,7 +1,9 @@
 .containerCardReferences {
     max-width: 350px;
-    width: 28%;
+    min-width: 46%;
+    width: auto;
     height: 250px;
+    height: auto;
     border: 10px solid gray;
     font-size: 20px;
     font-weight: 800;
@@ -16,6 +18,18 @@
     gap: 5px;
 }
 
+.firstCamp{
+    flex-wrap: wrap;
+}
+
+.secondCamp{
+    flex-wrap: wrap;
+}
+
+.threeCamp{
+    flex-wrap: wrap;
+}
+
 .FourCamp{
     flex-wrap: wrap;
 }
@@ -23,8 +37,9 @@
 @media (max-width: 1279px) {
     .containerCardReferences {
         max-width: 350px;
-        width: 45%;
-        height: 250px;
+        min-width: 90%;
+        width: auto;
+        height: 178px;
         border: 10px solid gray;
         font-size: 20px;
         font-weight: 800;

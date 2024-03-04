@@ -95,9 +95,9 @@ header {
 
 .logo {
   width: 60%;
-  height: 1000%;
+  height: 100%;
   border-radius: 50%;
-  background-color: gray;
+  background: radial-gradient(circle, rgba(128,128,128,1) 0%, rgba(189,255,149,1) 100%);
 }
 
 .containerName {
@@ -331,21 +331,21 @@ p.textExperience {
 @media (max-width:1279px) {
 
   .logo {
-    width: 70%;
+    width: 60%;
     height: 100%;
     border-radius: 50%;
     background-color: gray;
-  }
-  
-  .containerName {
+}
+
+.containerName {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
     height: 100%;
-    font-size: 70%;
-  }
+    font-size: 57%;
+}  
   
   .containerLogoandNets {
     display: flex;
@@ -678,10 +678,9 @@ p.textExperience {
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 35% 0 40px 0;
+    padding: 42% 0 40px 0;
     gap: 20px;
-  }
-
+}
   .TextFourSection {
     color: black;
     width: 85%;

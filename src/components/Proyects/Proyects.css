@@ -9,9 +9,9 @@
 
 
 img.imgProyect {
-    margin: 30px 0px 20px 25px;
-    width: 140px;
-    height: 70%;
+    /* margin: 30px 0px 20px 25px; */
+    width: 45%;
+    height: 100%;
 }
 
 .containerTextProyect {
@@ -35,28 +35,28 @@ p.textPoryect {
     text-align: center;
 }
 
-a.linkProyect.active {
-    font-size: 16px;
+a.linkProyect {
     color: black;
     text-decoration: none;
+    font-weight: 800;
 }
 
 @media (max-width: 1279px) {
     
     .containerCard {
         background: rgb(57, 169, 0);
-        width: 70%;
+        width: 100%;
         height: 250px;
         display: flex;
-        justify-content: center;
+        /* justify-content: center; */
         gap: 20px;
         border-radius: 10px;
     }
     
     img.imgProyect {
-        margin: 30px 0px 0 0;
-        width: 35%;
-        height: 68%;
+        /* margin: 30px 0px 0 0; */
+        width: 40%;
+        height: 100%;
     }
     
     .containerTextProyect {
@@ -90,17 +90,17 @@ a.linkProyect.active {
     .containerCard {
         background: rgb(57, 169, 0);
         width: 100%;
-        height: 290px;
+        height: 225px;
         display: flex;
-        justify-content: center;
+        /* justify-content: center; */
         gap: 20px;
         border-radius: 10px;
     }
-
+    
     img.imgProyect {
-        margin: 30px 0px 0 0;
-        width: 40%;
-        height: 68%;
+        /* margin: 30px 0px 0 0; */
+        width: 47%;
+        height: 100%;
     }
 }
 
@@ -108,22 +108,22 @@ a.linkProyect.active {
     .containerCard {
         background: rgb(57, 169, 0);
         width: 100%;
-        min-height: 260px;
+        min-height: 465px;
         height: auto;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        /* justify-content: center; */
         align-items: center;
         gap: 5px;
         border-radius: 10px;
     }
     
     img.imgProyect {
-        margin: 30px 0px 0 0;
-        width: 45%;
+        /* margin: 30px 0px 0 0; */
+        width: 100%;
         height: 60%;
     }
-
+    
     .containerTextProyect {
         color: white;
         margin: 20px 0 20px 0;
@@ -131,6 +131,7 @@ a.linkProyect.active {
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 10px;
     }
     
     h2.titleProyect {

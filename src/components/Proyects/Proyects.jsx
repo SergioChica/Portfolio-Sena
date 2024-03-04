@@ -10,7 +10,7 @@ export const Proyects = ({title,desc,link,img}) => {
         <div className='containerTextProyect'>
             <h2 className='titleProyect'>{title}</h2>
             <p className='textPoryect'>{desc}</p>
-            <NavLink to={link} className='linkProyect' >Ir al proyecto</NavLink>
+            <a href={link} className='linkProyect' target='_blank' >Ir al proyecto</a>
         </div>        
     </div>
   )
